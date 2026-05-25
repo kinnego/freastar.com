@@ -8,11 +8,16 @@
       "Bash(cp /Users/cathal/dev/freastar/src/assets/icon/favicon.ico /Users/cathal/dev/freastar.com/favicon.ico)",
       "Bash(git init)",
       "Bash(git add .)",
-      "Bash(cp /Users/cathal/dev/freastar/src/assets/freastar-logo-live.png /Users/cathal/dev/freastar.com/logo-live.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/freastar-logo-nav.png /Users/cathal/dev/freastar.com/logo-live.png)",
       "Bash(cp /Users/cathal/dev/freastar/src/assets/hero-meals.png /Users/cathal/dev/freastar.com/hero-meals.png)",
       "Bash(cp /Users/cathal/dev/freastar/src/assets/social-1200x630.png /Users/cathal/dev/freastar.com/social-preview.png)",
       "Bash(cp -r /Users/cathal/dev/freastar/src/assets/freastar/icons/ /Users/cathal/dev/freastar.com/icons/)",
-      "Bash(git push origin main)"
+      "Bash(git push origin main)",
+      "Bash(git add styles.css)",
+      "Bash(git commit -m \"Increase header logo size for better visibility\n\n- Changed logo height from 36px to 52px\n- Adjusted nav padding for better proportions\n- Logo now more prominent in header navigation\")",
+      "Bash(mv /Users/cathal/dev/freastar.com/hero-meals.png /Users/cathal/dev/freastar.com/assets/hero-meals.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/hero-meals.png /Users/cathal/dev/freastar.com/assets/hero-meals.png)",
+      "Bash(rm -f /Users/cathal/dev/freastar.com/logo-live.png /Users/cathal/dev/freastar.com/social-preview.png)"
     ],
     "deny": [],
     "ask": []
