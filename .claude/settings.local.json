@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm /Users/cathal/dev/freastar.com/logo.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/freastar/branding/logo-full.svg /Users/cathal/dev/freastar.com/logo.svg)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/freastar-logo.png /Users/cathal/dev/freastar.com/logo.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/icon/favicon.ico /Users/cathal/dev/freastar.com/favicon.ico)",
+      "Bash(git init)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

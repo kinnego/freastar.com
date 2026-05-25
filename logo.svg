@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120">
+  <defs>
+    <radialGradient id="logoIconGrad" cx="38%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#5B9BF8"/>
+      <stop offset="55%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1240A0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Star icon (left) -->
+  <g transform="translate(4, 10) scale(0.9)">
+    <path d="M50 8
+      C52 8 53 10 54 14 L58 30 L74 30
+      C78 30 80 32 79 35 L67 45
+      C66 46 66 48 67 49 L72 65
+      C73 68 72 70 69 70 C68 70 67 70 66 69 L50 60
+      L34 69 C33 70 32 70 31 70
+      C28 70 27 68 28 65 L33 49
+      C34 48 34 46 33 45 L21 35
+      C20 32 22 30 26 30 L42 30 L46 14
+      C47 10 48 8 50 8 Z"
+      fill="url(#logoIconGrad)"/>
+    <ellipse cx="42" cy="44" rx="4.5" ry="5.5" fill="white"/>
+    <ellipse cx="58" cy="44" rx="4.5" ry="5.5" fill="white"/>
+    <ellipse cx="43" cy="45" rx="2.2" ry="3" fill="#174EA6"/>
+    <ellipse cx="59" cy="45" rx="2.2" ry="3" fill="#174EA6"/>
+    <path d="M42 54 Q50 62 58 54" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="110" y="68" font-family="Poppins, sans-serif" font-weight="700" font-size="42" fill="#174EA6">Freastar</text>
+  <text x="110" y="90" font-family="Poppins, sans-serif" font-weight="600" font-size="16" fill="#FDBB13" letter-spacing="5">MEALS</text>
+</svg>
