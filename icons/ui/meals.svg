@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- plate -->
+  <ellipse cx="12" cy="13.5" rx="7.5" ry="4.5"/>
+  <ellipse cx="12" cy="13.5" rx="5" ry="3"/>
+  <!-- fork -->
+  <line x1="5" y1="3" x2="5" y2="8"/>
+  <line x1="4" y1="3" x2="4" y2="6"/>
+  <line x1="6" y1="3" x2="6" y2="6"/>
+  <path d="M4 6Q5 7.5 5 8L5 10"/>
+  <!-- knife -->
+  <path d="M19 3L19 6Q17.5 7.5 19 9L19 10"/>
+</svg>

@@ -524,6 +524,12 @@ li {
     fill: var(--primary);
 }
 
+.feature-card__icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
 .feature-card h3 {
     margin-bottom: var(--space-3);
     color: var(--text);
@@ -629,6 +635,18 @@ li {
     border-radius: var(--border-radius);
     color: var(--primary);
     font-weight: 500;
+}
+
+.hero__visual {
+    margin-top: var(--space-8);
+    text-align: center;
+}
+
+.hero__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
 }
 
 /* ===================================================================

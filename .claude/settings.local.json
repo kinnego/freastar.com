@@ -7,7 +7,11 @@
       "Bash(cp /Users/cathal/dev/freastar/src/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon.png)",
       "Bash(cp /Users/cathal/dev/freastar/src/assets/icon/favicon.ico /Users/cathal/dev/freastar.com/favicon.ico)",
       "Bash(git init)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/freastar-logo-live.png /Users/cathal/dev/freastar.com/logo-live.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/hero-meals.png /Users/cathal/dev/freastar.com/hero-meals.png)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/social-1200x630.png /Users/cathal/dev/freastar.com/social-preview.png)",
+      "Bash(cp -r /Users/cathal/dev/freastar/src/assets/freastar/icons/ /Users/cathal/dev/freastar.com/icons/)"
     ],
     "deny": [],
     "ask": []

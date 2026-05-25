@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- roof/triangle -->
+  <polyline points="2,10 12,3 22,10"/>
+  <!-- building body -->
+  <rect x="4" y="10" width="16" height="11" rx="1"/>
+  <!-- door -->
+  <rect x="10" y="15" width="4" height="6" rx="0.5"/>
+  <!-- windows -->
+  <rect x="6" y="13" width="3" height="3" rx="0.5"/>
+  <rect x="15" y="13" width="3" height="3" rx="0.5"/>
+  <!-- flag -->
+  <line x1="12" y1="3" x2="12" y2="0.5"/>
+  <polygon points="12,0.5 14.5,1.5 12,2.5" fill="currentColor" stroke="none"/>
+</svg>

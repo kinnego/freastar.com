@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140">
+  <defs>
+    <radialGradient id="starGradAl" cx="38%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#5B9BF8"/>
+      <stop offset="60%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1240A0"/>
+    </radialGradient>
+  </defs>
+  <path d="M70 18 L81 52 L117 52 L88 72 L99 106 L70 86 L41 106 L52 72 L23 52 L59 52 Z"
+    fill="url(#starGradAl)"/>
+  <ellipse cx="59" cy="65" rx="5.5" ry="6.5" fill="white"/>
+  <ellipse cx="81" cy="65" rx="5.5" ry="6.5" fill="white"/>
+  <ellipse cx="60" cy="66" rx="2.8" ry="3.5" fill="#174EA6"/>
+  <ellipse cx="82" cy="66" rx="2.8" ry="3.5" fill="#174EA6"/>
+  <path d="M59 76 Q70 85 81 76" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <!-- Bell badge (orange) -->
+  <circle cx="116" cy="100" r="18" fill="#FF8A00"/>
+  <path d="M108 101C108 96.582 111.686 93 116 93C120.314 93 124 96.582 124 101V107H108V101Z"
+    fill="white"/>
+  <line x1="106" y1="107" x2="126" y2="107" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M113 107C113 108.657 114.343 110 116 110C117.657 110 119 108.657 119 107"
+    fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</svg>
