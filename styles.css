@@ -269,7 +269,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--space-4) var(--container-padding);
+    padding: var(--space-3) var(--container-padding);
 }
 
 .nav__brand {
@@ -287,7 +287,7 @@ li {
 }
 
 .nav__logo-image {
-    height: 36px;
+    height: 52px;
     width: auto;
     transition: transform 0.2s ease;
 }
