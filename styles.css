@@ -588,6 +588,78 @@ li {
     margin: 0;
 }
 
+.solution-card {
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius-lg);
+    padding: var(--space-8);
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.solution-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.solution-card__icon {
+    margin-bottom: var(--space-6);
+}
+
+.solution-card__icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.solution-card__content {
+    text-align: left;
+    margin-bottom: var(--space-6);
+}
+
+.solution-card__content h3 {
+    text-align: center;
+    margin-bottom: var(--space-4);
+    color: var(--text);
+}
+
+.solution-card__benefits {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0 0 0;
+}
+
+.solution-card__benefits li {
+    position: relative;
+    padding-left: var(--space-6);
+    margin-bottom: var(--space-2);
+    color: var(--text-light);
+}
+
+.solution-card__benefits li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--success);
+    font-weight: 600;
+}
+
+.solution-card__footer {
+    text-align: center;
+}
+
+.cta__actions {
+    text-align: center;
+}
+
+.cta__note {
+    margin-top: var(--space-4);
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+}
+
 /* ===================================================================
    HERO SECTIONS
    =================================================================== */
@@ -627,6 +699,38 @@ li {
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: var(--space-8);
+}
+
+.hero__stats {
+    display: flex;
+    gap: var(--space-8);
+    justify-content: center;
+    margin: var(--space-8) 0;
+    flex-wrap: wrap;
+}
+
+.stat {
+    text-align: center;
+    padding: var(--space-4);
+    background-color: var(--surface);
+    border-radius: var(--border-radius-lg);
+    min-width: 120px;
+}
+
+.stat__number {
+    display: block;
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: var(--space-1);
+}
+
+.stat__label {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .hero__highlight {
