@@ -17,7 +17,8 @@
       "Bash(git commit -m \"Increase header logo size for better visibility\n\n- Changed logo height from 36px to 52px\n- Adjusted nav padding for better proportions\n- Logo now more prominent in header navigation\")",
       "Bash(mv /Users/cathal/dev/freastar.com/hero-meals.png /Users/cathal/dev/freastar.com/assets/hero-meals.png)",
       "Bash(cp /Users/cathal/dev/freastar/src/assets/hero-meals.png /Users/cathal/dev/freastar.com/assets/hero-meals.png)",
-      "Bash(rm -f /Users/cathal/dev/freastar.com/logo-live.png /Users/cathal/dev/freastar.com/social-preview.png)"
+      "Bash(rm -f /Users/cathal/dev/freastar.com/logo-live.png /Users/cathal/dev/freastar.com/social-preview.png)",
+      "Bash(git commit -m \"Switch to app icon for navigation and use live logo as hero\n\nNavigation improvements:\n- Changed header logo from freastar-logo-nav.png to appicon-96.png\n- App icon provides better visual prominence in navigation\n- Added border-radius to logo for polished appearance\n- Optimized height to 48px for better proportions\n\nHero section enhancement:\n- Replaced hero-meals.png with freastar-logo-live.png on Freastar Meals page\n- Better brand showcase with company logo vs generic interface\n- Improved hero image styling with max-height and object-fit\n- More impactful visual representation of the brand\n\nBetter brand consistency across navigation and hero sections.\")"
     ],
     "deny": [],
     "ask": []

@@ -287,9 +287,10 @@ li {
 }
 
 .nav__logo-image {
-    height: 52px;
+    height: 48px;
     width: auto;
     transition: transform 0.2s ease;
+    border-radius: 8px;
 }
 
 .nav__logo:hover .nav__logo-image {
@@ -644,9 +645,12 @@ li {
 
 .hero__image {
     max-width: 100%;
+    max-height: 400px;
+    width: auto;
     height: auto;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-lg);
+    object-fit: contain;
 }
 
 /* ===================================================================
