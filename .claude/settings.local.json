@@ -28,7 +28,8 @@
       "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-16.png /Users/cathal/dev/freastar.com/favicon-16x16.png)",
       "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon-32x32.png)",
       "Bash(cp /Users/cathal/dev/freastar.com/assets/appicon-192.png /Users/cathal/dev/freastar.com/apple-touch-icon.png)",
-      "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon.ico)"
+      "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon.ico)",
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/healthylunch-512.png /Users/cathal/dev/freastar.com/assets/healthylunch-512.png)"
     ],
     "deny": [],
     "ask": []
