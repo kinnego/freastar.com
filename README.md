@@ -98,14 +98,27 @@ freastar.com/
 - Works without JavaScript (except mobile menu)
 - Responsive design for all screen sizes
 
+## Deployment
+
+This website is configured for **GitHub Pages** deployment:
+
+1. **Automatic deployment**: Pushes to the `main` branch automatically deploy to GitHub Pages
+2. **Custom domain**: The `CNAME` file configures the site to serve at `freastar.com`
+3. **Static hosting**: Optimized for fast, reliable static site hosting
+
+### GitHub Pages Setup
+- Repository: https://github.com/kinnego/freastar.com.git
+- Domain: freastar.com (configured via CNAME file)
+- Source: Deploy from `main` branch / root directory
+- Automatic SSL certificate via GitHub Pages
+
 ## Next Steps
 
-1. **Add your logo image** to the root directory
-2. **Test the website** by opening index.html in a browser
-3. **Customize content** as needed for your specific requirements
-4. **Deploy** to your web hosting service
-5. **Set up analytics** and monitoring as needed
+1. **Test the website** by opening index.html in a browser locally
+2. **Customize content** as needed for your specific requirements
+3. **Push changes** to GitHub for automatic deployment
+4. **Set up analytics** and monitoring as needed
 
 ## Contact
 
-For questions about the website implementation, contact the development team.
+For questions about the website implementation, contact kinnego@gmail.com
