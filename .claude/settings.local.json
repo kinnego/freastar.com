@@ -29,7 +29,8 @@
       "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon-32x32.png)",
       "Bash(cp /Users/cathal/dev/freastar.com/assets/appicon-192.png /Users/cathal/dev/freastar.com/apple-touch-icon.png)",
       "Bash(cp /Users/cathal/dev/freastar.com/assets/favicon-32.png /Users/cathal/dev/freastar.com/favicon.ico)",
-      "Bash(cp /Users/cathal/dev/freastar/src/assets/healthylunch-512.png /Users/cathal/dev/freastar.com/assets/healthylunch-512.png)"
+      "Bash(cp /Users/cathal/dev/freastar/src/assets/healthylunch-512.png /Users/cathal/dev/freastar.com/assets/healthylunch-512.png)",
+      "Bash(git commit -m \"Update logo files and products page\n\n- Added freastar-logo-old.png as backup\n- Updated freastar-logo.png with new design\n- Modified products.html content\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": [],
     "ask": []
