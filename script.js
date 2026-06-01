@@ -106,7 +106,7 @@
             formStatus.innerHTML = '<p class="form__message form__message--info">Sending your message...</p>';
             
             // Send email using EmailJS
-            emailjs.sendForm('DfGHWQEYTQsGTbi3ZaOks', 'template_dgk8r4j', form)
+            emailjs.sendForm('service_sbqvhbd', 'template_dgk8r4j', form)
                 .then(function(response) {
                     // Success
                     formStatus.innerHTML = '<p class="form__message form__message--success">Thank you! Your message has been sent successfully. We\'ll get back to you soon.</p>';
