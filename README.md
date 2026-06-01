@@ -121,4 +121,4 @@ This website is configured for **GitHub Pages** deployment:
 
 ## Contact
 
-For questions about the website implementation, contact kinnego@gmail.com
+For questions about the website implementation, contact hello@freastar.com
