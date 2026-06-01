@@ -32,7 +32,8 @@
       "Bash(cp /Users/cathal/dev/freastar/src/assets/healthylunch-512.png /Users/cathal/dev/freastar.com/assets/healthylunch-512.png)",
       "Bash(git commit -m \"Update logo files and products page\n\n- Added freastar-logo-old.png as backup\n- Updated freastar-logo.png with new design\n- Modified products.html content\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
       "Bash(git commit -m \"Update stakeholder benefits to reflect accurate value propositions\n\nFreastar Meals page improvements:\n- Parents: Added ''no cost'' messaging - meals are covered, no payment required\n- Schools: Changed focus to fresh local meals vs packaged distant suppliers\n- Schools: Added note about self-managed schools getting admin tools\n- Caterers: Emphasized complete admin control with all operational tools\n\nBetter reflects the actual benefits each group receives from the platform.\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
-      "Bash(gh repo view --web)"
+      "Bash(gh repo view --web)",
+      "Bash(mkdir -p .github/workflows)"
     ],
     "deny": [],
     "ask": []
