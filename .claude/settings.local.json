@@ -33,7 +33,9 @@
       "Bash(git commit -m \"Update logo files and products page\n\n- Added freastar-logo-old.png as backup\n- Updated freastar-logo.png with new design\n- Modified products.html content\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
       "Bash(git commit -m \"Update stakeholder benefits to reflect accurate value propositions\n\nFreastar Meals page improvements:\n- Parents: Added ''no cost'' messaging - meals are covered, no payment required\n- Schools: Changed focus to fresh local meals vs packaged distant suppliers\n- Schools: Added note about self-managed schools getting admin tools\n- Caterers: Emphasized complete admin control with all operational tools\n\nBetter reflects the actual benefits each group receives from the platform.\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
       "Bash(gh repo view --web)",
-      "Bash(mkdir -p .github/workflows)"
+      "Bash(mkdir -p .github/workflows)",
+      "Bash(git add .github/workflows/main.yml)",
+      "Bash(git commit -m \"Add GitHub Actions workflow and update email addresses\n\n- Created GitHub Pages deployment workflow in .github/workflows/main.yml\n- Replaced kinnego@gmail.com with hello@freastar.com across all pages\n- Updated contact information in footer sections, meta descriptions, and README\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": [],
     "ask": []
