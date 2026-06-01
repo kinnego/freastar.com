@@ -357,7 +357,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--space-3) var(--container-padding);
+    padding: calc(var(--space-3) + 15px) var(--container-padding) var(--space-3) var(--container-padding);
 }
 
 .nav__brand {
@@ -428,6 +428,20 @@ li {
     padding: 0;
 }
 
+.nav__menu .button {
+    align-self: center;
+    margin: 0;
+}
+
+.nav__menu .button--small {
+    padding: var(--space-2) var(--space-4);
+    line-height: 1.4;
+}
+
+.nav__menu li:last-child {
+    padding-top: 10px;
+}
+
 .nav__link {
     font-weight: 500;
     color: var(--text-light);
@@ -455,7 +469,7 @@ li {
     display: inline-block;
     padding: var(--space-3) var(--space-6);
     background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-    color: white;
+    color: white !important;
     text-decoration: none;
     border-radius: var(--border-radius);
     font-weight: 500;
@@ -486,7 +500,7 @@ li {
 .button:hover {
     background: linear-gradient(135deg, var(--primary-dark) 0%, #1e40af 100%);
     border-color: var(--primary-dark);
-    color: white;
+    color: white !important;
     text-decoration: none;
     transform: translateY(-2px);
     box-shadow: 0 10px 15px -3px rgb(37 99 235 / 0.3), 0 4px 6px -4px rgb(37 99 235 / 0.3);
@@ -509,27 +523,27 @@ li {
 
 .button--secondary {
     background: white !important;
-    color: var(--primary);
+    color: var(--primary) !important;
     border-color: var(--primary);
     border-width: 1px;
 }
 
 .button--secondary:hover {
     background: var(--surface) !important;
-    color: var(--primary-dark);
+    color: var(--primary-dark) !important;
     border-color: var(--primary);
 }
 
 .button--outline {
     background: white !important;
-    color: var(--primary);
+    color: var(--primary) !important;
     border-color: var(--primary);
     border-width: 1px;
 }
 
 .button--outline:hover {
     background: var(--primary) !important;
-    color: white;
+    color: white !important;
     border-color: var(--primary-dark);
 }
 
@@ -1197,6 +1211,82 @@ li {
     color: var(--muted);
 }
 
+/* Form additions for contact form */
+.form__group {
+    margin-bottom: var(--space-6);
+}
+
+.form__label {
+    display: block;
+    margin-bottom: var(--space-2);
+    font-weight: 500;
+    color: var(--text);
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+    width: 100%;
+    padding: var(--space-3);
+    border: 1px solid var(--border);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-base);
+    font-family: var(--font-family);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: var(--bg);
+}
+
+.form__input:focus,
+.form__select:focus,
+.form__textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgb(37 99 235 / 0.1);
+}
+
+.form__textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form__status {
+    margin-top: var(--space-4);
+}
+
+.form__message {
+    padding: var(--space-4);
+    border-radius: var(--border-radius);
+    margin: 0;
+    font-size: var(--font-size-sm);
+}
+
+.form__message--success {
+    background-color: #f0f9ff;
+    border: 1px solid #7dd3fc;
+    color: #0369a1;
+}
+
+.form__message--error {
+    background-color: #fef2f2;
+    border: 1px solid #fca5a5;
+    color: #dc2626;
+}
+
+.form__message--info {
+    background-color: #f8fafc;
+    border: 1px solid var(--border);
+    color: var(--text);
+}
+
+.form__alternative {
+    margin-top: var(--space-6);
+    padding-top: var(--space-6);
+    border-top: 1px solid var(--border-light);
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--muted);
+}
+
 /* ===================================================================
    CONTACT PAGE
    =================================================================== */
@@ -1432,6 +1522,40 @@ li {
 .footer__bottom p {
     color: rgba(255, 255, 255, 0.6);
     margin: 0;
+}
+
+/* Ensure button contrast in footer */
+.footer .button--outline {
+    background: white !important;
+    color: var(--primary) !important;
+    border-color: white !important;
+}
+
+.footer .button--outline:hover {
+    background: var(--primary) !important;
+    color: white !important;
+    border-color: var(--primary) !important;
+}
+
+.footer .button--primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%) !important;
+    color: white !important;
+    border-color: var(--primary) !important;
+}
+
+.footer .button--secondary {
+    background: white !important;
+    color: var(--primary) !important;
+    border-color: white !important;
+}
+
+/* Visual caption styling */
+.visual-caption {
+    margin-top: var(--space-4);
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--muted);
+    font-style: italic;
 }
 
 /* ===================================================================

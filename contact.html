@@ -26,6 +26,9 @@
     <link rel="manifest" href="manifest.json">
     
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
     <header class="header">
@@ -97,27 +100,54 @@
                         </div>
                     </div>
 
-                    <div class="contact-email">
-                        <h2>Get started with an email</h2>
-                        <div class="email-cta">
-                            <p>Ready to explore how Freastar can help your organization? Send us an email with details about your needs and we'll get back to you promptly.</p>
-                            
-                            <div class="email-action">
-                                <a href="mailto:hello@freastar.com" class="button button--primary button--large">
-                                    Email hello@freastar.com
-                                </a>
+                    <div class="contact-form">
+                        <h2>Send us a message</h2>
+                        <p>Ready to explore how Freastar can help your organization? Fill out the form below and we'll get back to you promptly.</p>
+                        
+                        <form id="contact-form" class="form">
+                            <div class="form__group">
+                                <label for="user_name" class="form__label">Name *</label>
+                                <input type="text" id="user_name" name="user_name" class="form__input" required>
                             </div>
                             
-                            <div class="email-suggestions">
-                                <h3>What to include in your email:</h3>
-                                <ul>
-                                    <li>Your name and organization (school, catering company, etc.)</li>
-                                    <li>What you're interested in (Freastar Meals, HealthyLunch.ie, SchoolPledge.ie, or custom development)</li>
-                                    <li>Brief description of your current situation and needs</li>
-                                    <li>Your timeline and any specific questions</li>
-                                    <li>Best way to reach you for a follow-up call or demo</li>
-                                </ul>
+                            <div class="form__group">
+                                <label for="user_email" class="form__label">Email *</label>
+                                <input type="email" id="user_email" name="user_email" class="form__input" required>
                             </div>
+                            
+                            <div class="form__group">
+                                <label for="organization" class="form__label">Organization</label>
+                                <input type="text" id="organization" name="organization" class="form__input" placeholder="School, catering company, etc.">
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="interest" class="form__label">What are you interested in?</label>
+                                <select id="interest" name="interest" class="form__select">
+                                    <option value="">Please select...</option>
+                                    <option value="Freastar Meals">Freastar Meals - School meal ordering software</option>
+                                    <option value="SchoolPledge.ie">SchoolPledge.ie setup</option>
+                                    <option value="Custom Development">Custom platform development</option>
+                                    <option value="General Enquiry">General enquiry</option>
+                                    <option value="Demo Request">Demo request</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form__group">
+                                <label for="message" class="form__label">Message *</label>
+                                <textarea id="message" name="message" class="form__textarea" rows="6" placeholder="Tell us about your needs, timeline, and any specific questions..." required></textarea>
+                            </div>
+                            
+                            <div class="form__group">
+                                <button type="submit" class="button button--primary button--large" id="submit-btn">
+                                    Send Message
+                                </button>
+                            </div>
+                            
+                            <div id="form-status" class="form__status"></div>
+                        </form>
+                        
+                        <div class="form__alternative">
+                            <p>Prefer email? <a href="mailto:hello@freastar.com">hello@freastar.com</a></p>
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,9 @@
       "Bash(gh repo view --web)",
       "Bash(mkdir -p .github/workflows)",
       "Bash(git add .github/workflows/main.yml)",
-      "Bash(git commit -m \"Add GitHub Actions workflow and update email addresses\n\n- Created GitHub Pages deployment workflow in .github/workflows/main.yml\n- Replaced kinnego@gmail.com with hello@freastar.com across all pages\n- Updated contact information in footer sections, meta descriptions, and README\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
+      "Bash(git commit -m \"Add GitHub Actions workflow and update email addresses\n\n- Created GitHub Pages deployment workflow in .github/workflows/main.yml\n- Replaced kinnego@gmail.com with hello@freastar.com across all pages\n- Updated contact information in footer sections, meta descriptions, and README\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")",
+      "Bash(git add -f .github/workflows/main.yml)",
+      "Bash(git commit -m \"Add GitHub Pages deployment workflow\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\")"
     ],
     "deny": [],
     "ask": []

@@ -85,9 +85,48 @@
         });
     }
     
-    // Form enhancement (for future use when form submission is enabled)
+    // EmailJS Contact Form
+    function initContactForm() {
+        const form = document.getElementById('contact-form');
+        const submitBtn = document.getElementById('submit-btn');
+        const formStatus = document.getElementById('form-status');
+        
+        if (!form) return;
+        
+        // Initialize EmailJS - YOU NEED TO REPLACE THESE WITH YOUR ACTUAL IDs
+        // Get these from your EmailJS dashboard after setting up your service
+        emailjs.init("6yuP5eVCQXNuHs_RT"); // Replace with your public key
+        
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Disable submit button and show loading state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            formStatus.innerHTML = '<p class="form__message form__message--info">Sending your message...</p>';
+            
+            // Send email using EmailJS
+            emailjs.sendForm('DfGHWQEYTQsGTbi3ZaOks', 'template_dgk8r4j', form)
+                .then(function(response) {
+                    // Success
+                    formStatus.innerHTML = '<p class="form__message form__message--success">Thank you! Your message has been sent successfully. We\'ll get back to you soon.</p>';
+                    form.reset();
+                }, function(error) {
+                    // Error
+                    console.error('EmailJS error:', error);
+                    formStatus.innerHTML = '<p class="form__message form__message--error">Sorry, there was an error sending your message. Please try again or email us directly at hello@freastar.com.</p>';
+                })
+                .finally(function() {
+                    // Re-enable submit button
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Send Message';
+                });
+        });
+    }
+    
+    // Form enhancement (for other forms)
     function initFormEnhancements() {
-        const forms = document.querySelectorAll('form');
+        const forms = document.querySelectorAll('form:not(#contact-form)');
         
         forms.forEach(function(form) {
             const submitButton = form.querySelector('button[type="submit"]');
@@ -166,6 +205,7 @@
     function init() {
         initMobileNavigation();
         initSmoothScroll();
+        initContactForm();
         initFormEnhancements();
         initCardEffects();
         initExternalLinks();
